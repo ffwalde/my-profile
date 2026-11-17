@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: pink;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color: white;  
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 60px;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>About Me</h1>
+
+    <header>
+        <h1>Welcome to My Digital World</h1>
+        <p>Creative, imaginative, and passionate about art.</p>
+
+        <nav>
+            <a href="#about-me">About Me</a> |
+            <a href="#things-i-love">Things I Love</a> |
+            <a href="#passion-projects">Passion Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about-me">
+            <h2>About Me</h2>
+
+            <div class="profile">
+                <div class="photo-placeholder">
+                    Your Photo
+                </div>
+
+                <p>
+                    Hi! I'm Francesca Faith F. Walde, a Multimedia Digital Arts
+                    student who enjoys expressing creativity through digital
+                    illustrations, traditional paintings, and storytelling.
+                </p>
+            </div>
+        </section>
+
+        <section id="things-i-love">
+            <h2>Things I Love</h2>
+
+            <ul>
+                <li>Digital art and illustration</li>
+                <li>Traditional painting and fine art</li>
+                <li>Creating original characters and stories</li>
+                <li>Exploring creativity and new ideas</li>
+            </ul>
+        </section>
+
+        <section id="passion-projects">
+            <h2>My Passion Projects</h2>
+
+            <p>Here are some of my creative projects and artwork.</p>
+
+            <article>
+                <h3>Fate Changer</h3>
+
+                <figure>
+                    <img src="images/fate changer new cover.png"
+                         alt="Fate Changer original fantasy story cover"
+                         width="300">
+
+                    <figcaption>
+                        An original fantasy story about five girls who
+                        change destinies and create happier endings.
+                    </figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>Wedding Meme Poses</h3>
+
+                <figure>
+                    <img src="images/wedding meme poses.png"
+                         alt="Digital illustration featuring wedding meme poses"
+                         width="400">
+
+                    <figcaption>
+                        A digital illustration showcasing my character
+                        art and creative expression.
+                    </figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>The 20th Birthday Issue</h3>
+
+                <figure>
+                    <img src="images/THE 20TH BIRTHDAY ISSUE.png"
+                         alt="The 20th Birthday Issue artwork"
+                         width="300">
+
+                    <figcaption>
+                        An illustration project exploring visual
+                        composition and storytelling.
+                    </figcaption>
+                </figure>
+            </article>
+
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                If you would like to contact me, you can email me at
+                <a href="mailto:ffwalde@gmail.com">ffwalde@gmail.com</a>.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Francesca Faith F. Walde. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
