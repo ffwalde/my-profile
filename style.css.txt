@@ -1,0 +1,155 @@
+
+/* GENERAL PAGE STYLING */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #443344;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* HEADER */
+header {
+    background-color: #eadcf8;
+    text-align: center;
+    padding: 2.2rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    color: #704b82;
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+/* NAVIGATION */
+nav {
+    margin-top: 1.25rem;
+}
+
+nav a {
+    color: #704b82;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+main {
+    max-width: 56.25rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* SECTIONS */
+section {
+    background-color: #ffffff;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid #eadcf8;
+    border-radius: 0.75rem;
+}
+
+h2 {
+    color: #805b91;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #eadcf8;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    color: #704b82;
+    font-size: 1.2rem;
+}
+
+/* ABOUT ME FLEXBOX LAYOUT */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* PHOTO PLACEHOLDER */
+.photo-placeholder {
+    width: 9rem;
+    height: 9rem;
+    flex-shrink: 0;
+    background-color: #eadcf8;
+    border: 2px dashed #805b91;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #704b82;
+    text-align: center;
+}
+
+/* PASSION PROJECTS */
+article {
+    margin: 1.875rem 0;
+}
+
+figure {
+    margin: 0.9375rem 0;
+}
+
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+figcaption {
+    margin-top: 0.625rem;
+    font-size: 0.95rem;
+}
+
+/* CONTACT LINKS */
+a {
+    color: #704b82;
+}
+
+/* FOOTER */
+footer {
+    background-color: #eadcf8;
+    text-align: center;
+    padding: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 0.3rem;
+    }
+
+    main {
+        padding: 0.75rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .photo-placeholder {
+        width: 8rem;
+        height: 8rem;
+    }
+}
